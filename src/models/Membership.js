@@ -25,7 +25,7 @@ const membershipSchema = new mongoose.Schema({
   currency: { type: String, default: 'KES' },
   
   // Class access configuration
-  classCredits: { type: Number, default: 0 }, // 0 means unlimited
+  classCredits: { type: Number, default: 0 }, 
   unlimitedClasses: { type: Boolean, default: false },
   creditsUsed: { type: Number, default: 0 },
   creditsRemaining: { type: Number, default: 0 },
