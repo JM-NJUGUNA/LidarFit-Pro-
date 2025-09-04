@@ -25,7 +25,7 @@ const classSchema = new mongoose.Schema({
     default: 'all_levels'
   },
   
-  // Pricing (if different from membership)
+  // Pricing 
   dropInPrice: { type: Number, default: 0 },
   creditsRequired: { type: Number, default: 1 },
   
